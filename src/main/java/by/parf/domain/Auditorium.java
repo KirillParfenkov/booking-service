@@ -5,6 +5,7 @@ package by.parf.domain;
  */
 public class Auditorium {
 
+    private String id;
     private String name;
     private int numberOfSeats;
     private int vipSeats;
@@ -34,5 +35,13 @@ public class Auditorium {
 
     public void setVipSeats(int vipSeats) {
         this.vipSeats = vipSeats;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
 }

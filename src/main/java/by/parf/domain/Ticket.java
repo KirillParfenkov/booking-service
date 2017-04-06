@@ -7,6 +7,7 @@ import java.time.LocalDateTime;
  */
 public class Ticket {
 
+    private String id;
     private Event event;
     private LocalDateTime dateTime;
     private int seats;
@@ -36,5 +37,13 @@ public class Ticket {
 
     public void setSeats(int seats) {
         this.seats = seats;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
 }
