@@ -2,6 +2,7 @@ group 'parf.by'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
+apply plugin: 'idea'
 apply plugin: 'war'
 
 sourceCompatibility = 1.8
@@ -14,4 +15,5 @@ dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.11'
     compile group: 'org.hibernate', name: 'hibernate-core', version: '5.2.9.Final'
     compile group: 'javax.servlet', name: 'javax.servlet-api', version: '3.1.0'
+    compile 'org.springframework:spring-context:4.3.7.RELEASE'
 }

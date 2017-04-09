@@ -1,4 +1,4 @@
-package by.parf.services;
+package by.parf.services.booking;
 
 import by.parf.domain.Event;
 import by.parf.domain.Ticket;

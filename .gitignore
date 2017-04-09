@@ -5,3 +5,5 @@ booking-service.iml
 gradlew
 gradlew.bat
 build
+/booking-service.ipr
+/booking-service.iws

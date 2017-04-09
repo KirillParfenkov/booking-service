@@ -1,4 +1,4 @@
-package by.parf.services;
+package by.parf.services.event;
 
 import by.parf.domain.Auditorium;
 import by.parf.domain.Event;
@@ -13,7 +13,7 @@ public interface EventService {
 
     Event create(Event event);
     void remove(String id);
-    Event getByName();
+    Event getByName(String name);
     List<Event> getAll();
     void assignAuditorium(Event event, Auditorium auditorium, LocalDateTime dateTime);
 }

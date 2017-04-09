@@ -1,4 +1,4 @@
-package by.parf.services;
+package by.parf.services.auditorium;
 
 import by.parf.domain.Auditorium;
 

@@ -6,10 +6,17 @@ package by.parf.domain;
 public class Event {
 
     private String id;
+    private String name;
     private int basePrice;
     private Rating rating;
 
     public Event() {
+    }
+
+    public Event(String name, int basePrice, Rating rating) {
+        this.name = name;
+        this.basePrice = basePrice;
+        this.rating = rating;
     }
 
     public String getId() {
@@ -34,5 +41,13 @@ public class Event {
 
     public void setRating(Rating rating) {
         this.rating = rating;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }
